@@ -6,6 +6,7 @@
 #include <SFML/Graphics.hpp>
 #include "Textbox.h"
 #include "Button.h"
+#include <map>
 
 using namespace std;
 
@@ -72,7 +73,7 @@ map<int, vector<Institution*>> sortbyinstatetuition(vector<Institution*> inst){
         byinstatetuition[instatetuition].push_back(chosen);  //add key and push back into insitution vector
     } //keep going until done looking through vector of institutions made in main
 
-    /*auto it = byinstatetuition.begin();
+    auto it = byinstatetuition.begin();
     while (it != byinstatetuition.end()) {
         cout<<"Schools with the InState tuition of " << "$"<< it->first << ":"<< endl;
         vector<Institution*> schools = it->second;
@@ -82,7 +83,7 @@ map<int, vector<Institution*>> sortbyinstatetuition(vector<Institution*> inst){
             school->printStats();
         }
         it++;
-    }*/
+    }
 
     return byinstatetuition;
 };
