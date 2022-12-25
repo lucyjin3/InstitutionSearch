@@ -15,3 +15,6 @@ sat reading scores, low/high sat math reading scores, and in-state/out-of-state 
 
 Tools: 
 C++, Linked-List, Heap, Ordered Map
+
+#Link to Video Demonstration
+https://www.youtube.com/watch?v=3iw_nE2HQb8
