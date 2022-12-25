@@ -10,7 +10,7 @@ There will be a multiple buttons where we will display the organized colleges by
 
 Data: 
 U.S. Department of Education College Scorecard Data last updated Feb 7, 2022	
-The data.csv file consists of the institution’s name, city, state, admission rate, low/high 
+The data.csv file above consists of the institution’s name, city, state, admission rate, low/high 
 sat reading scores, low/high sat math reading scores, and in-state/out-of-state tuitions.
 
 Tools: 
